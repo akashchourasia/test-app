@@ -1,8 +1,8 @@
 $navbar-default-bg: black;
 
 @import "bootstrap-sprockets";
-
 @import "bootstrap";
+
 a:link {
     text-decoration: none;
 }
@@ -22,50 +22,39 @@ a:active {
 
 #logo {
 
-float: left;
-
-font-size: 1.7em;
-
-color: #fff;
-
-text-transform: uppercase;
-
-letter-spacing: -1px;
-
-font-weight: bold;
-
+    float: left;
+    font-size: 1.7em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
 }
 
 #logo:hover {
 
-color: #fff;
-
-text-decoration: none;
-
+    color: #fff;
+    text-decoration: none;
 }
 .btn1{
     color: white;
 }
-
 .center {
 
-text-align: center;
-
+    text-align: center;
 }
 
 .jumbotron {
 
-background-image: asset-url('Dmxrxdn.png');
+    background-image: asset-url('Dmxrxdn.png');
 
-background-size: cover;
+    background-size: cover;
 
-height: 550px;
-
+    height: 550px;
 }
+
 .article-actions {
 
     border-top: 1px solid #eaeaea;
-    
     padding-top: 5px;
     
 }
@@ -76,64 +65,60 @@ height: 550px;
 }
 .jumbotron h1 {
 
-color: #fff;
+    color: #fff;
 
-text-align: center;
+    text-align: center;
 
-margin-bottom: 30px;
+    margin-bottom: 30px;
 
-letter-spacing: -1px;
+    letter-spacing: -1px;
 
-font-weight: bold;
+    font-weight: bold;
 
 }
 
 .btn-xlarge {
 
-font-size: 1.7em;
+    font-size: 1.7em;
 
-background-color: black;
-
+    background-color: black;
 }
 
 footer {
 
-margin-top: 45px;
+    margin-top: 45px;
 
-padding-top: 5px;
+    padding-top: 5px;
 
-border-top: 1px solid #eaeaea;
+    border-top: 1px solid #eaeaea;
 
-color: rgb(86, 178, 231);
-
+    color: rgb(86, 178, 231);
 }
 
 footer a:hover {
 
-color: #222;
+    color: rgb(86, 178, 231);
 
 }
 
 footer small {
 
-float: left;
+    float: left;
 
 }
 
 footer ul {
 
-float: right;
-
-list-style: none;
+    float: right;
+    list-style: none;
 
 }
 
 footer ul li {
 
-float: left;
+    float: left;
 
-margin-left: 15px;
-
+    margin-left: 15px;
 }
 .article-title {
     
@@ -143,7 +128,7 @@ margin-left: 15px;
     
 }
     
-    .article-body {
+.article-body {
     
     border-top: 1px solid #eaeaea;
     
@@ -151,18 +136,26 @@ margin-left: 15px;
     
     padding-bottom: 15px;
     
-    }
-    .listing {
+}
+.listing {
 
-        list-style: none;
+    list-style: none;
+    padding-left: 0;
         
-        padding-left: 0;
-        
-        }
-    .article-meta-details {
+}
+.badge{
+    background-color: #CEF6F5;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+.input_checkbox input {
+    width: auto !important;
+}
+    
+.article-meta-details {
 
-        border-top: 1px solid #eaeaea;
+    border-top: 1px solid #eaeaea;
+    margin-top: 15px;
         
-        margin-top: 15px;
-        
-    }
+}
